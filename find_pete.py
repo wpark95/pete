@@ -6,10 +6,9 @@ import sys
 
 def main():
 
-    curr_day = 1
+    curr_step = 1
     curr_time = "05:30 AM"
     curr_location = "Unknown"
-    playing = True
     proof = []
 
     # slowly prints to the terminal (one letter at a time on the same line)
@@ -31,11 +30,6 @@ def main():
         location_script = "--- Location: " + curr_location
         print_slowly(location_script, 0.15)
 
-    def print_day():
-        day_script = " DAY " + str(curr_day)
-        print_slowly(day_script, 0.4)
-        print()
-
     def print_game_text(text):
         print_slowly(text, 0.1)
 
@@ -46,24 +40,33 @@ def main():
     print()
     print_game_text("Bzzt... Bzzt...")
     print_game_text("You: \"Hello?\"")
-    print_game_text("Jay: \"Hey, it's me, Jay. Listen, we have an incident. We need you over here. Now.\"")
+    print_game_text("Z: \"Hey, it's me, Z. Listen, we have an incident. We need you over here. Now.\"")
     print()
     print()
     curr_time = "06:02 AM"
-    curr_location = "Hershey Town Square Parking Lot, 3F"
+    curr_location = "Town Square Parking Lot"
 
-    while playing:
-        print_day()
+    while curr_step < 4:
         print_time()
         print_location()
-        print_game_text("--- It's still dark in Hershey. The air is cold and crisp, and for some reason, heavy.") 
-        print_game_text("--- More and more police vehicles are arriving at the scene.")
-        print_game_text("You: \"Any updates, detective?\"")
-        print_game_text("Jay: \"Forensics just came in. Victim is 32 year old. Male.\"")
-        print_game_text("You: \"Name?\"")
-        print_game_text("Jay: \"Pete.\"")
-        print_game_text("You: \"Text me his address. I will go talk to his neighbors.\"")
-        location = "Hershey "
+        print()
+
+        if curr_day == 1:
+            print_game_text("--- It's still dark in Hershey. The air is cold and crisp, and, for some reason, heavy.") 
+            print_game_text("--- More and more police vehicles are arriving at the scene.")
+            print_game_text("You: \"Any updates, detective?\"")
+            print_game_text("Z: \"Forensics just came in. Victim is 32 year-old. Male.\"")
+            print_game_text("You: \"Name?\"")
+            print_game_text("Z: \"Pete. Guy lives in Hummelstown.\"")
+            print_game_text("You: \"Any leads?\"")
+            curr_location = "Hummelstown, PA"
+            curr_time = "06:48 AM"
+
+        if curr_step == 2 and curr_location == "Hummelstown, PA":
+            print_game_text("--- The neighborhood is still quite. You are the only person on the road.")
+            print_game_text("--- You walk in to an apartment building, take a deep breath, and knock on a door.")
+
+        curr_step += 1
 
 if __name__ == "__main__":
     main()
