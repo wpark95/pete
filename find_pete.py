@@ -157,7 +157,7 @@ def main():
                 print_game_text("You: \"They didn't know the victim that well. Any updates on the caller?\"")
                 print_game_text("Z: \"We are still trying to identify them. They used a burner phone.\"")
 
-            if len(leads) > 1:
+            if len(leads) > 0:
                 print_game_text("--- You are sitting in front of your computer. Detective Z walks in.")
                 print()
                 print_game_text("You: \"The victim's mother says he met someone from work last night. A co-worker.\"")
