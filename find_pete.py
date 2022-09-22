@@ -81,7 +81,7 @@ def main():
         print_time()
         print_location()
         # print the list of leads the user has gathered if its length is bigger than 0
-        if (leads.len > 0):
+        if (len(leads) > 0):
             print_leads
         print()
 
@@ -150,14 +150,14 @@ def main():
         # prints the game scenario for chapter 3
         if curr_chapter == 3:
 
-            if leads.len == 0:
+            if len(leads) == 0:
                 print_game_text("--- Someone walks into your office. It's Detective Z.")
                 print()
                 print_game_text("Z: \"What did his neighbors say?\"")
                 print_game_text("You: \"They didn't know the victim that well. Any updates on the caller?\"")
                 print_game_text("Z: \"We are still trying to identify them. They used a burner phone.\"")
 
-            if leads.len > 1:
+            if len(leads) > 1:
                 print_game_text("--- You are sitting in front of your computer. Detective Z walks in.")
                 print()
                 print_game_text("You: \"The victim's mother says he met someone from work last night. A co-worker.\"")
