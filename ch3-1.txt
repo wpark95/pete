@@ -1,0 +1,11 @@
+--- You are staring at a map on your office wall. 
+--- Someone walks into your office. It's Detective Z.
+Z: "If you're looking for a breakfast place, I know a place or two."
+You: "Pete's neighbors didn't know him very well. The apartment manager said he only saw him once. When he signed the lease."
+Z: "Perfect! So I'll just tell chief we have no clue then. I hate this job anyways, you know?"
+You: "What about Pete's parents?"
+Z: "They called us about an hour after you left. They are flying to Florida to check on Pete's brother."
+You: "Florida? His brother?"
+Z: "They think someone's after their family."
+You: "What? Why would they think that?"
+Z: "Apparently, Mr. Peterson is a former DEA guy. He thinks this whole might be gang-related. You know, a retaliation."

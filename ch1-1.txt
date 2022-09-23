@@ -1,0 +1,16 @@
+--- It's still dark in Hershey. The air is unusually cold, and, for some reason, feels heavy.
+--- You walk past police vehicles surrounding the parking lot.
+--- You see Z standing next to a car.
+You: "What do we have here?"
+Z: "Someone called 911 an hour ago. They heard a gunshot in this parking lot."
+You: "Someone got shot?"
+Z: "Negative. No bullet holes, no blood, no body, no nothing so far ..."
+Z: "... But we found this car with its lights on. And 8 million dollars in its trunk. All cash."
+You: "What the... 8 million? In cash? Jeff Bezos is in town?"
+Z: "The car is registered to a guy named Pete. Pete Peterson. He moved to Hummelstown 2 weeks ago from Florida."
+You: "Well, where is he now?"
+Z: "We're trying to locate him."
+You: "And what about the caller?"
+Z: "We're still trying to identify them. Sergeant Jones is on it."
+You: "I'll go to Hummelstown and see if I can find something there."
+Z: "Not right now. Chief wants you to go talk to Pete's parents in Harrisburg."

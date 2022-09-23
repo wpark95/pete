@@ -1,0 +1,9 @@
+--- You are sitting in front of your computer. Someone's profile on your screen.
+--- Detective Z walks in.
+Z: "Who's this?"
+You: "I talked to Pete's parents. Pete was supposed to meet a co-worker last night."
+Z: "A co-worker?"
+You: "Yes. A female. And I just talked to Pete's boss, there is only one female in his team. This is her."
+Z: "Linda Jorgensen... Good. See if we can talk to her."
+You: "Will do. Any updates from Jones?"
+Z: "The person who called 911 used a burner phone. We're trying to see if we can track them down."

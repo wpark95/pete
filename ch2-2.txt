@@ -1,0 +1,12 @@
+--- The neighborhood is peaceful and quite. You are the only person on the road.
+--- You park your car in front of the Petersons residence.
+--- You take a deep breath, and knock on the door.
+You: "Hi, I'm Detective user_name from HPD. How are-"
+Mr. Peterson: "I just got off the phone with one of your guys! My boy- Is Pete okay?"
+You: "I'm sorry sir, we're still looking for him at the moment. We'll do our best to find your son."
+--- Pete's parents break down in tears. You try to comfort them. Their neighbor's dogs start barking.
+--- Mrs. Peterson invites you in. You talk to them for a while, and learn that Pete called his parents last night.
+Mrs. Peterson: "He said he is meeting with someone. A friend from work."
+You: "Did he tell you who exactly?"
+Mrs. Peterson: "No, he just said she's a friend from work."
+You: "She?"
