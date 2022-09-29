@@ -1,11 +1,11 @@
---- You park your car on the street, and start staring at an old apartment building outside of your foggy car window.
---- As you walk into the building, the hallway is dead silent, except for the wooden floor creaking as you walk. 
+--- You park your car on the street and stare at an old apartment building outside of your foggy car window.
+--- The hallway is dead silent as you walk into the building, except for the wooden floor creaking as you walk.
 --- You get to the end of the hallway, and stand in front of a door that says [109].
 --- You think about drawing your handgun for a bit, but decide not to. Then you try to turn the door knob.
---- The door is locked. You feel a sense of relief, for some reason. You walk outside and call Z.
+--- The door is locked. You feel a sense of relief for some reason. You walk outside and call Z.
 You: "Hey Z, I'm at Pete's apartment building. No, the door's locked."
---- After a while, the apartment manager arrives. 
+--- After a while, the apartment manager arrives.
 Manager: "Hi, I'm Andy. You must be Detective user_name."
 --- You talk to Andy and Pete's neighbors for a few hours, but nobody seems to know Pete very well.
 --- You also check Pete's apartment room briefly, but the room is empty except for a few unpacked moving boxes.
---- After thanking the manager, you sit in your car for a while, staring at the apartment building. 
+--- After thanking the manager, you sit in your car for a while, staring at the apartment building.
