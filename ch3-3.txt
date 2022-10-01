@@ -1,0 +1,5 @@
+--- Suddenly, Chief Jackson walks into your office.
+Chief: "user_name, Z, I got a bad news. The FBI is taking over. We'll be off the case soon..."
+Chief: "... This Pete guy, whoever he is, I think he's bigger than we thought."
+You: "What? But he disappeared here in Hershey. Why is FBI invovled in this case?"
+Chief: "I don't know. But the press is not happy with our progress. We've found nothing so far."

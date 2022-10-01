@@ -1,0 +1,21 @@
+--- Several minutes later, you walk into a local coffee shop and start looking for Linda.
+Linda: "Are you looking for someone?"
+You: "No, I'm..."
+Linda: "I'm Linda."
+You: "How'd you know it was me?"
+Linda: "Most people don't walk into a coffee shop and immediately start looking around."
+You: "I see... I'm sure you heard what happend to Pete by now. Would you mind if I ask a few questions about Pete?"
+--- You talk to Linda for a while. But Linda claims that Pete and her never met last night.
+--- You learn that Linda and Pete became close friends because they both grew up in San Francisco.
+Linda: "We were talking this one day and he brought up Emperor Norton. That's when I knew he's from San Francisco."
+You: "Emperor Norton?"
+Linda: "Yes, the only emperor to ever exist in the United States's history. Well, at least 'til now." 
+--- After an awkward silence, Linda tells you she knows nothing about Pete's whereabouts.
+Linda: "Can I go home now? I'd like to finish some work before it gets too late."
+--- You thank her for her time. Both you and Linda walk out of the coffee shop and start walking in opposite directions.
+--- Then you notice a black car parked across the street. You keep walking, but you decide to look back for some reason.
+--- And before you can get a closer look at the driver, the driver throws a trump card at you and drives away.
+--- You pick up the card. It's a king of hearts. You flip it, and there's something written on the back.
+??? "Good luck, Detective user_name. By the way, the emperor is impressed with your skills. Maybe we'll meet again."
+--- Your heart starts to race. Maybe, just maybe, it won't be long until you find Pete.
+- FIN -

@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-""" Will Park |
-    A text-based detective game
-    Python Project 1 (If Logic Challenge) """
+""" Will Park | Python Project 1 (If Logic Challenge)
+
+    An interactive text-based detective game
+    The game result changes based on user's (your) choice.
+    """
 
 # import modules necessary for printing messages letter-by-letter in terminal
 import time
@@ -16,7 +18,7 @@ def main():
     user_name = input("Please enter your name to continue: ").capitalize().strip()
 
     # current game information that decide the game progress and result. This will be constantly updated during game
-    curr_chapter = 1
+    curr_chapter = 0
     curr_time = "04:22 AM"
     curr_location = "Hershey, PA"
     leads = []
@@ -84,28 +86,42 @@ def main():
         # return user's choice
         return user_choice
 
-    # print introductory texts at the beginning of the game
+    # print slower, introductory texts at the beginning of the game
     print()
-    print_slowly("          September 21, 2022", 0.2)
+    print_slowly("          Finding Pete", 0.2)
     print()
-    print_game_info()
-    print_chapter_scenario('intro')
-    
-    # update the game scenario time and location after intro
-    curr_time = "05:02 AM"
-    curr_location = "Hershey Town Square Parking Lot"
 
     # allow the user to continue playing the game until they reach the final chapter
-    while curr_chapter < 4:
+    while curr_chapter < 5:
 
         # print current game info (time, location, and leads if not empty)
         print() # print empty line for better readability
         print_game_info()
 
+        # if current chapter is chapter 0 (intro)
+        if curr_chapter == 0:
+            # print the game scenario for intro
+            print_chapter_scenario('intro')
+            # prompt and save the user's move for intro
+            user_res = prompt_user_choice("Righteously enjoy your day off", "Go to town square parking lot")
+            # print related game texts and update scenario info for chapter 1, or end the game, based on user's choice
+            if user_res == 1:
+                print()
+                print_slowly("You: \"Hey, I promised my kids I'll go to their soccer game today. I can't miss this one.\"")
+                print_slowly("--- Few days later, you learn that someone went missing that day. His name is...")
+                print_slowly("--- You try to remember, but you can't. 'I guess I'll never know', you think to yourself.")
+                # break out of the loop to end the game
+                break
+            if user_res == 2:
+                print_slowly("You: \"Fine! You better help me explain this to my kids later, Z.\"")
+                # update the game scenario time and location for chapter 1 after intro
+                curr_time = "05:02 AM"
+                curr_location = "Hershey Town Square Parking Lot"
+
         # if current chapter is chapter 1
         if curr_chapter == 1:
             # print the game scenario for chapter 1
-            print_chapter_scenario('ch1')
+            print_chapter_scenario("ch1")
             # prompt and save the user's move for chapter 1
             user_res = prompt_user_choice("Go to Pete's apartment", "Meet Pete's parents")
             # print related game texts and update scenario info for chapter 2, based on user's choice
@@ -124,11 +140,11 @@ def main():
         if curr_chapter == 2:
             # print correct scenario for the current game location (decided by user's choice in previous chapter)
             if curr_location == "Hummelstown, PA":
-                print_chapter_scenario('ch2-1')
+                print_chapter_scenario("ch2-1")
             if curr_location == "Harrisburg, PA":
-                print_chapter_scenario('ch2-2')
+                print_chapter_scenario("ch2-2")
                 # add new lead about the co-worker if user made the right choice
-                leads.append('Linda')
+                leads.append("Linda")
             # update game scenario information for chapter 3
             curr_location = "Hershey Police Department - Your Office"
             curr_time = "10:33 AM"
@@ -137,9 +153,35 @@ def main():
         if curr_chapter == 3:
             # print correct scenario based on the length of leads (decided by user's choice in previous chapter)
             if len(leads) == 0:
-                print_chapter_scenario('ch3-1')
+                print_chapter_scenario("ch3-1")
             if len(leads) > 0:
-                print_chapter_scenario('ch3-2')
+                print_chapter_scenario("ch3-2")
+            # print chapter 3-3, this is a shared scenario regardless of user's previous choice
+            print_chapter_scenario("ch3-3")
+            # if the user has collected a lead, give them a chance to choose a different scenario
+            if len(leads) > 0:
+                user_res = prompt_user_choice("Share what you've found", "Keep silence")
+                if user_res == 1:
+                    # update game scenario information for chapter 4-1
+                    print()
+                    print_slowly("You: \"Actually, you might want to take a look at this chief.\"")
+                    curr_time = "11:50 AM"
+                if user_res == 2:
+                    # update game scenario information for chapter 4-2
+                    print()
+                    print_slowly("You: \"...\"")
+                    curr_time = "A year later"
+            # if the user hasn't collected a lead yet, go to chapter 4-2
+            else:
+                curr_time = "A year later"
+        
+        # if current chapter is chapter 4
+        if curr_chapter == 4:
+            # print correct scenario based on the length of leads (decided by user's choice in chapter 1)
+            if curr_time == "11:50 AM":
+                print_chapter_scenario("ch4-1")
+            if curr_time == "A year later":
+                print_chapter_scenario("ch4-2")
 
         # increment the current chapter count at the end of every chapter
         curr_chapter += 1

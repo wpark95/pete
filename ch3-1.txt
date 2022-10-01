@@ -11,5 +11,3 @@ You: "What? Why would they think that?"
 Z: "Apparently, Pete's father is a former DEA guy. He thinks this whole situation might be gang-related. A retaliation."
 You: "Is that why those guys are here?"
 --- You point towards a group of people wearing blue FBI jacket in the hallway.
---- Suddenly, Sergeant Jones walks into your office.
-Sgt. Jones: "We found a burner phone near the parking lot. You might want to see this."
